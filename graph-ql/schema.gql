@@ -1,0 +1,37 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type NutritionInfo {
+  calories: Float!
+  protein: Float!
+  carb: Float!
+  fat: Float!
+}
+
+type NutritionType {
+  id: ID!
+  dessert: String!
+  nutritionInfo: NutritionInfo!
+}
+
+type Query {
+  nutritions: [NutritionType!]!
+}
+
+type Mutation {
+  createNutrition(input: NutritionInput!): NutritionType!
+  deleteNutrition(id: String!): NutritionType!
+}
+
+input NutritionInput {
+  dessert: String!
+  nutritionInfo: NutritionInfoInput!
+}
+
+input NutritionInfoInput {
+  calories: Float!
+  protein: Float!
+  carb: Float!
+  fat: Float!
+}
