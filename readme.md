@@ -6,7 +6,7 @@ to make project live your pc must have npm package manager installed or yarn
 
 so let start the project server please do the following command
 
-1 - open command propt on NutritionsProject and run the command `cd graph-ql-app` to move the command to this directory
+1 - open command propt on NutritionsProject and run the command `cd graph-ql` to move the command to this directory
 2 - then please do `npm install` and then make the commend `npm run start:dev` to start the server
 
 now you must have server running with port 7000
@@ -14,7 +14,7 @@ you can access it from http://localhost:7000/graphql
 
 let start the project react client please do the following command
 
-1 - open command propt on NutritionsProject and run the command `cd react-app` to move the command to this directory
+1 - open command propt on NutritionsProject and run the command `cd react` to move the command to this directory
 2 - then please do `npm install` and then make the commend `npm run start` to start the server
 
 now you must have server running with port 7001
